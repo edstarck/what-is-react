@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    margin-bottom: 24px;
+}
+
+.logo {
+    width: 96px;
+    height: 96px;
+    display: block;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.clock {
+    padding: 8px 16px;
+    margin-bottom: 24px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.lot {
+    position: relative;
+    width: 100%;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.price {
+    position: absolute;
+    right: 16px;
+}
